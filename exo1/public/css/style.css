@@ -7,7 +7,7 @@
 }
 
 .paraGrRouge{
-    font-size: x-large;
+    font-size: xx-large;
     background-color: red;
     font-weight: bold;
 }
@@ -34,12 +34,26 @@
     75%{color: green;}
     100%{color: red;}
 }
-/* .ul{
+.nvbr ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-.li {
-    display: inline;
-} */
+.nvbr li {
+    float: left;
+}
+
+.nvbr li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nvbr li a:hover {
+    background-color: #111;
+}
