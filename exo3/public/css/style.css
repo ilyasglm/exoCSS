@@ -2,14 +2,14 @@ section{
     padding-bottom: 50px;
     border-bottom: 1px black solid;
 }
-section:first-child{
+section:first-child>h4{
     color: blue;
 }
 
 section:nth-child(2){
     border-bottom: 5px red solid;
 }
-h3,li{
+section:nth-child(3)>h3,ul>li{
     color: red;
 }
 
@@ -26,6 +26,6 @@ img{
     border: black 1px solid;
 }
 
-section:last-child:hover{
+section:nth-child(7)>p:last-child:hover{
 color: green;
 }
