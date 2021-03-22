@@ -1,0 +1,30 @@
+/* *{ prend en charge toute la page } */
+* {
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* plusieurs balises similaire */
+p,h1 {
+    color: green;
+}
+
+/* comprend tout les elements dans la balise selectionnée */
+
+ul li{
+    color: yellow;
+}
+
+/* parent enfant: comprend les elements enfant designé */
+ul>li{
+    color: red;
+}
+
+/* balise1 + balise2 : Si la balise2 vient apres balise1 le changement est valable, sinon le changement est ignorée */
+p + h4 {
+    color: aqua;
+}
+
+p ~ span {
+    color: violet;
+}
