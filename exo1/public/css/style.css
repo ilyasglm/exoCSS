@@ -1,0 +1,45 @@
+.rouge{
+    color: red;
+}
+
+.bleu{
+    color: blue;
+}
+
+.paraGrRouge{
+    font-size: x-large;
+    background-color: red;
+    font-weight: bold;
+}
+
+.sousLigne{
+    text-decoration: underline;
+}
+
+.ital{
+    font-style: italic;
+}
+
+/* Something extra */
+
+.pupu{
+    animation: pupu 1s infinite;
+    background-color: yellow;
+}
+
+@keyframes pupu{
+    1%{color: red;}
+    25%{color: green;}
+    50%{color: blue;}
+    75%{color: green;}
+    100%{color: red;}
+}
+/* .ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.li {
+    display: inline;
+} */
