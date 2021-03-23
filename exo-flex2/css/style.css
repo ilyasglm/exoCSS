@@ -1,0 +1,44 @@
+/* .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+    background-color: orangered;
+    height: 150px;
+}
+.f1{
+    width: 1980px;
+}
+.f2{
+    width: 923px;
+}
+.f3{
+    width: 613px;
+}
+.f12{
+    width: 147.25px;
+} */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+}
+.con2{
+    display: flex;
+    width: 1980px;
+}
+.item{
+    background-color: orangered;
+    width: 100%;
+}

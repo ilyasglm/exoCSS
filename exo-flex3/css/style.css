@@ -1,0 +1,35 @@
+*{
+    border-radius: 1%;
+    margin: 2px;
+}
+
+
+header{
+    background-color: blue;
+    height: 10vh;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 78.5vh;
+}
+article{
+    background-color: lightblue;
+    width: 60%;
+}
+nav{
+    background-color: orangered;
+    order: -1;
+    width: 20%;
+}
+aside{
+    background-color: orangered;
+    width: 20%;
+}
+footer{
+    background-color: blue;
+    height: 10vh;
+}
+
+/* Responsivité OK */
