@@ -1,0 +1,91 @@
+body {
+  margin: 0
+}
+
+/* Exo margin */
+section{
+  background-color: #4da6ff;
+}
+h2{
+  border: 2px solid black;
+  color: yellow;
+  font-size: 30px;
+}
+.tar {
+  margin: 50px;
+}
+.tar2 {
+  margin-left: 20%;
+}
+.tar3 {
+  margin: auto;
+}
+
+/* fin exo margin */
+
+/* exo padding */
+.tarpad{
+  padding: 50px;
+}
+.tarpad2{
+  padding-left: 20%;
+}
+/* fin exo padding */
+
+/* exo display */
+.marpad{
+  margin: 5px;
+  padding: 5px;
+}
+.disp{
+  display: inline-block;
+  display: inline;
+  /* les padding et les margin partent */
+}
+.dispno{
+  display: none;
+  /* rend invisible */
+}
+/* fin exo display */
+
+/* exo Float */
+.flo1{
+  width: auto;
+  float: initial;
+}
+.overflo {
+  overflow: hidden;
+}
+/* fin exo Float */
+
+/* exo position */
+.abso{
+position: absolute;
+background-color: green;
+margin: 0;
+top: 50px;
+left: 50%;
+position: fixed;
+}
+.sexorel{
+position: relative;
+}
+/* fin exo position */
+
+/* exo position (priorité) */
+.bcando{
+  background-color: blue;
+  margin-left: 100px;
+  z-index: -1;
+}
+.absolu{
+  position: absolute;
+}
+.bctart{
+  background-color: yellow;
+  color: black;
+  z-index: -2;
+}
+
+
+/* fin exo position (priorité) */
