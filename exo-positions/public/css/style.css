@@ -8,7 +8,7 @@ section{
 }
 h2{
   border: 2px solid black;
-  color: yellow;
+  background-color: yellow;
   font-size: 30px;
 }
 .tar {
@@ -34,14 +34,11 @@ h2{
 
 /* exo display */
 .marpad{
-  margin: 5px;
-  padding: 5px;
-}
-.disp{
-  display: inline-block;
+  margin: 25px;
+  padding: 25px;
   display: inline;
-  /* les padding et les margin partent */
 }
+
 .dispno{
   display: none;
   /* rend invisible */
@@ -51,7 +48,7 @@ h2{
 /* exo Float */
 .flo1{
   width: auto;
-  float: initial;
+  float: left;
 }
 .overflo {
   overflow: hidden;
@@ -73,18 +70,18 @@ position: relative;
 /* fin exo position */
 
 /* exo position (priorité) */
-.bcando{
+.bcandroid{
   background-color: blue;
   margin-left: 100px;
-  z-index: -1;
-}
-.absolu{
   position: absolute;
+  padding: 20px;
 }
-.bctart{
-  background-color: yellow;
-  color: black;
-  z-index: -2;
+
+.bctartine{
+  position: absolute;
+  padding: 20px;
+  z-index: 1; /* pour mettre la tartine au dessus de l'android*/
+  z-index: -1; /* pour mettre la tartine derriere la section*/
 }
 
 
