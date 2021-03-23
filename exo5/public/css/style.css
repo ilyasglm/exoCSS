@@ -1,0 +1,23 @@
+/* position static = par defaut, si la position est static, l'image ne bougera pas */
+
+
+/* Position relative fait en sorte que l'image puisse bouger par raport a son parent */
+
+/* si je fais top 10% l'image ne bougera pas, car le parent (body dans ce cas) n'as pas de taille précise, donc le % n'est pas calculable, des mesures comme px, em etc fonctionne */
+.test{
+    background-color: green;
+    height: 200px;
+}
+header{
+    position: sticky;
+    top: 0%;
+    margin: 0px;
+}
+.test2{
+    background-color: red;
+    height: 100px;
+}
+body{
+    height: 2000px;
+    margin: 0px;
+}
