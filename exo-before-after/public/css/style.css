@@ -1,0 +1,48 @@
+section{
+    position: relative;
+    width: fit-content;
+}
+/* fin Exo 1 */
+#exo1 > h1::after{
+    content: "";
+    background-color: red;
+    width: 0;
+    height: 5px;
+    transition: width 2s;
+    display: block;
+}
+#exo1 > h1:hover::after{
+    width: 100%;
+}
+/* Exo 2 */
+#exo2 > h1::after{
+    content: "";
+    margin: 0 auto;
+    background-color: red;
+    width: 0;
+    height: 5px;
+    transition: width 2s;
+    display: block;
+}
+#exo2 > h1:hover::after{
+    width: 100%;
+}
+/* fin Exo 2 */
+
+/* Exo 3 */
+#exo3 > h1::after{
+    content: "";
+    overflow: hidden;
+    z-index: -1;
+    position: absolute;
+    background-color: red;
+    width: 100%;
+    height: 0px;
+    transition: height 1s ;
+    display: block;
+    bottom: 0;
+}
+#exo3 > h1:hover::after{
+    height: 100%;
+}
+/* fin Exo 3 */
