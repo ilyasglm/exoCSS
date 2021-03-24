@@ -1,14 +1,12 @@
+body{
+    background-color: wheat;
+}
 .flex-container{
     display: flex;
-    height: 98vh;
-    background-color: burlywood;
     align-items: center;
-    
+    height: 100vh;
 }
 .flex-item{
-    height: 100px;
-    justify-content: center;
-    display: flex;
     background-color: orangered;
     margin: 4px;
     padding: 35px;
