@@ -1,0 +1,48 @@
+div {
+  animation: carre 2s 2 alternate;
+  animation-delay: 2s;
+}
+div:hover {
+  animation-play-state: paused;
+}
+ @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}  
+}
+
+@keyframes carre {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 200px;
+    top: 0px;
+  }
+  
+  50% {
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+#bounce-title{
+  position: absolute;
+  animation: bouncey 1s infinite alternate;
+}
+@keyframes bouncey {
+  0% {
+    bottom: 100px;
+    transform: scaleY(1);
+  }
+  100% {
+    bottom: -10%;
+    transform: scaleY(0.3);
+  }
+}

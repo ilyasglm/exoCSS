@@ -1,9 +1,8 @@
 section{
-    border-bottom: solid;
     padding-bottom: 50px;
 }
-section:last-of-type{
-    border-bottom: none;
+section:not(:last-of-type){
+    border-bottom: solid;
 }
 div{
     height: 150px;
@@ -87,9 +86,10 @@ div{
 .transition_07{
     background: green;
     transition: ease 3s;
+    width: 50px;
 }
 .transition_07:active{
-    margin: 80%;
+    margin-left: 80%;
 }
 /* fin exo 07 les transitions */
 
@@ -99,11 +99,12 @@ div{
 .transition_08{
     background: lightblue;
     transition: 3s;
+    width: 50px;
 }
 .transition_08:active{
-    margin: 80%;
+    margin-left: 80%;
     border-radius: 50%;
-    height: 100px;
+    height: 50px;
     background: purple;
 }
 /* fin exo 08 les transitions */
