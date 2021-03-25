@@ -19,6 +19,7 @@ body {
 }
 .logo{
   display: inline-block;
+  width: 20%;
 }
 
 #champs_newsletter div{
@@ -35,6 +36,7 @@ nav {
   display: inline-flex;
   align-items: center;
   border-bottom: 1px solid gray;
+  width: 100%;
 }
 nav > .logo img{
   height: 80px;
@@ -50,8 +52,17 @@ nav > .logo img{
 }
 .menu > ul > li:last-of-type {
 margin-left: 100px;
-border-left: 1px solid gray;
+/* border-left: 1px solid gray; */
 padding-left: 80px;
+}
+.menu ul li:last-of-type::before {
+  content: "";
+  background-color: rgba(128, 128, 128, 0.438);
+  height: 85px;
+  width: 1px;
+  position: absolute;
+  left: 1250px;
+  top: 50px;
 }
 .menu > ul > li:first-of-type {
   margin-left: 75px;
