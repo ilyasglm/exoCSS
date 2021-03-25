@@ -60,9 +60,6 @@ padding-left: 80px;
   text-decoration: none;
   color: black;
 }
-.menu > ul > li:last-of-type{
-  justify-content: end;
-}
 
 .menu > ul > li > a::after {
   content: "";
@@ -140,7 +137,7 @@ footer {
 }
 footer > img {
   height: 100px;
-  width: 150px;
+  width: 200px;
   margin-top: 10px;
 }
 footer p {
