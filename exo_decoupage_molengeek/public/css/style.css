@@ -1,0 +1,139 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+}
+#newsletter{
+  background-color: purple;
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+#newsletter img{
+  height: 50px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.logo{
+  display: inline-block;
+}
+
+#champs_newsletter div{
+  justify-content: center; 
+  color: white;
+}
+#champs_newsletter > div > button {
+  background-color: rgb(30, 192, 84);
+  border-radius: 1px;
+  color: white;
+}
+nav {
+  display: inline-flex;
+  align-items: center;
+}
+nav > .logo img{
+  height: 80px;
+  margin-left: 100px;
+}
+.menu > ul > li {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
+  width: fit-content;
+}
+.menu > ul > li:last-of-type {
+margin-left: 100px;
+}
+.menu > ul > li:first-of-type {
+  margin-left: 75px;
+}
+.menu > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+.menu > ul > li:last-of-type{
+  justify-content: end;
+}
+
+.menu > ul > li > a::after {
+  content: "";
+  display: block;
+  background-color: black;
+  height: 2px;
+  width: 0;
+  margin: 0 auto;
+  transition: width 1s;
+}
+.menu > ul > li >a:hover::after {
+  width: 100%;
+}
+#contenu > h1 {
+  text-align: center;
+  color: black;
+}
+#contenu > h2 {
+  color: black;
+}
+#contenu > h1::after {
+  content: "";
+  background-color: purple;
+  height: 1px;
+  width: 50px;
+  margin: 50px auto ;
+  display: block;
+}
+#contenu {
+  width: 70%;
+  margin: auto;
+  color: grey;
+}
+
+#contenu > ul {
+  list-style: none;
+}
+
+#contenu > ul li::before {
+  content: "\2022";
+  color: purple;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -2.5em;
+}
+
+footer {
+  background-color: rgb(36, 36, 36);
+  text-align: center;
+}
+
+.section {
+  height: 100px;
+  margin-top: 20px;
+  border-bottom: grey 0.01px solid;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.section > div > a > img {
+  height: 20px;
+  width: 20px;
+  background-color: rgb(36, 36, 36);
+}
+.section > div {
+  margin-right: 10px;
+}
+.section > div > a {
+  text-decoration: none;
+  color: white;
+}
+footer > img {
+  height: 100px;
+  width: 150px;
+  margin-top: 10px;
+}
