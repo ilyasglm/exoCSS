@@ -1,0 +1,139 @@
+body{
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: gray 0px 5px 15px 5px;
+}
+header{
+    background-color: black;
+    color: white;
+    font-size: 9pt;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logoHD {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+.logosdroite {
+    display: flex;
+}
+.logoHD > a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+.etape1 {
+    background-color: rgb(1, 56, 88);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 0;
+    font-size: larger;
+}
+.etape2 h2 {
+    background-color: rgb(1, 56, 88);    
+    margin: 30px 40%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.sousdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sousdiv div {
+    margin-bottom: 10px;
+}
+
+#div2 {
+    width: 600px;
+}
+
+.diventre {
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.diventre img {
+    height: 75px;
+    width: 75px;
+    margin-bottom: 5px;
+}
+.diventre div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+footer {
+    position: relative;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+.images img {
+    height: 50px;
+    width: 50px;
+    margin: 20px 0;
+    margin-right: 10px;
+}
+footer a {
+    text-decoration: none;
+    color: lightgray;
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    font-size: x-small;
+}
+.row {
+    display: flex;
+    flex-direction: column;
+    background-color: burlywood;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#kaskouy {
+    display: flex;
+    flex-direction: column;
+}
+#kaskouy div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.diventre2 {
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+    padding: 20px;
+}
+.diventre2 div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.diventre2 img {
+    height: 75px;
+    width: 75px;
+}
